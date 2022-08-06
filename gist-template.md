@@ -1,10 +1,19 @@
-# Title (replace with your title)
+# Phone Number Regex
 
-Introductory paragraph (replace this with your text)
+The basic international phone number validation
 
-## Summary
+## Summary - The basic international phone number validation
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A simple regex to validate string against a valid international phone number format without delimiters and with an optional plus sign:
+
+/^\+?[1-9][0-9]{7,14}$/
+
+While validation of phone numbers using regex can give a possibility to check the format of the phone number, it does not guarantee that the number exists.
+
+There might be also an option to leave a phone number field without any validation since some users might have:
+
+More complex phone numbers with extensions
+The different phone numbers for calling them on a different time of day
 
 ## Table of Contents
 
@@ -23,6 +32,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors have special meaning in regular expressions. They do not match any character. Instead, they match a position before or after characters:
+
+ ^ – The caret anchor matches the beginning of the text.
+ $ – The dollar anchor matches the end of the text.
 
 ### Quantifiers
 
@@ -46,4 +59,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This regex tutorial was created by Alejandro Cortez, Github: Muzan67 https://github.com/Muzan67
+
