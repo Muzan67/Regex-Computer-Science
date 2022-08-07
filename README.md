@@ -43,3 +43,7 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 ![Regex2](https://user-images.githubusercontent.com/102841726/183271146-d0527dd7-a4a4-4708-9853-1ab3026698d1.png)
 
 ![Regex3](https://user-images.githubusercontent.com/102841726/183271157-a53049e0-5478-4f24-93ac-0aba2e227d73.png)
+
+# Technologies Used
+
+gist.template.md
