@@ -4,7 +4,7 @@ The basic international phone number validation
 
 ## Summary - The basic international phone number validation
 
-A simple regex to validate a string against a valid international phone number format without delimiters and with an optional plus sign:
+The regex below validates a string against a valid international phone number format without delimiters and with an optional plus sign:
 
 /^\+?[1-9][0-9]{7,14}$/
 
@@ -64,10 +64,10 @@ Use the ^ to negate a range.
 
 ### Bracket Expressions
 
-The square brackets can contain character ranges. For example, [0-9] is a digit from 0 to 9. The [0-9] is the same as \d.
+The square brackets can contain character ranges. For example, [0-9] is a digit from 0 to 9. 
 
 - Excluding ranges
-  To negate a range, you use the excluding range like: [^...].
+  To make a range ineffective , you use the excluding range like: [^...].
 
 - Escape special characters
   Typically, you use a backslash to escape a special character e.g., \.. However, in square brackets, you don’t need to escape most of the special characters except they have a meaning for the square brackets.
@@ -83,15 +83,15 @@ For example, [^0-9] matches any character except a digit. It is the same as \D.
 
 - Summary
   Use the - inside a set to construct a range to match any character in the range.
-  Use the ^ to negate a range.
+  Use the ^ to make ineffective a range.
 
 ### Greedy and Lazy Match
 
-In the greedy mode, quantifiers try to match as many as possible and return the largest matches. When quantifiers use the greedy mode, they are called greedy quantifiers.
+In the greedy mode, quantifiers (expressions) try to match as many as possible and return the largest matches. When quantifiers (expressions) use the greedy mode, they are called greedy quantifiers.
 
-In the lazy mode, the quantifiers match their preceding elements as few as possible and return the smallest matches. When quantifiers use the lazy mode, they’re often referred to as non-greedy quantifiers or lazy quantifiers.
+In the lazy mode, the quantifiers (expressions) match their previous elements as few as possible and return the smallest matches. When quantifiers use the lazy mode, they’re often referred to as non-greedy quantifiers or lazy quantifiers.
 
-Lazy quantifiers match their preceding elements as few as possible to return the smallest possible matches.
+Lazy quantifiers match their previous elements as few as possible to return the smallest possible matches.
 
 Use a question mark (?) to transform a greedy quantifier into a lazy quantifier.
 
