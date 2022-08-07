@@ -46,4 +46,4 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 # Technologies Used
 
-gist.template.md
+- gist.template.md
