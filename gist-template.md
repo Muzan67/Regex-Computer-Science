@@ -28,13 +28,13 @@ There might be also an option to leave a phone number field without any validati
 
 While the regex to validate a string against a valid international phone number expression may seem obscure upon initial inspection, we can break down eacah individual component in order to understand how the sequence works.
 
-### Anchors
+## Anchors
 
 Anchors have special meaning in regular expressions. They do not match any character. Instead, they match a position before or after characters:
 
 – ^ The caret anchor matches the beginning of the text.
 
-– $ The dollar anchor matches the end of the text. 
+– $ The dollar anchor matches the end of the text.
 
 ## Quantifiers
 
@@ -42,20 +42,20 @@ We often use the quantifiers to form complex regular expressions. The following 
 
 Whole numbers:/^\d+$/
 
-Decimal numbers:/^\d*.\d+$/
+Decimal numbers:/^\d\*.\d+$/
 
-Whole numbers and decimal numbers:/^\d*(.\d+)?$/
+Whole numbers and decimal numbers:/^\d\*(.\d+)?$/
 
-Negative, positive whole numbers & decimal numbers:/^-?\d*(.\d+)?$/
+Negative, positive whole numbers & decimal numbers:/^-?\d\*(.\d+)?$/
 
-### Flags
+## Flags
 
 A regex usually comes within this form /abc/, where the search pattern is delimited by two slash characters /.
 At the end we can specify a flag with these values (we can also combine them each other):
 
 m (multi-line) when enabled ^ and $ will match the start and end of a line, instead of the whole string.
 
-### Grouping and Capturing
+## Grouping and Capturing
 
 The square brackets can contain character ranges. For example, [0-9] is a digit from 0 to 9. The [^0-9] matches any character except a digit.
 
@@ -66,9 +66,9 @@ For example, if the caret (^) is at the beginning of a string, you need to escap
 Use the - inside a set to construct a range to match any character in the range.
 Use the ^ to negate a range.
 
-### Bracket Expressions
+## Bracket Expressions
 
-The square brackets can contain character ranges. For example, [0-9] is a digit from 0 to 9. 
+The square brackets can contain character ranges. For example, [0-9] is a digit from 0 to 9.
 
 - Excluding ranges
   To make a range ineffective , you use the excluding range like: [^...].
@@ -89,7 +89,7 @@ For example, [^0-9] matches any character except a digit. It is the same as \D.
   Use the - inside a set to construct a range to match any character in the range.
   Use the ^ to make ineffective a range.
 
-### Greedy and Lazy Match
+## Greedy and Lazy Match
 
 In the greedy mode, quantifiers (expressions) try to match as many as possible and return the largest matches. When quantifiers (expressions) use the greedy mode, they are called greedy quantifiers.
 
