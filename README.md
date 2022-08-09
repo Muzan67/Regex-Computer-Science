@@ -36,6 +36,14 @@ WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 ```
 
+# Screenshot of Regex Computer Science readme.markdown
+
+![image](https://user-images.githubusercontent.com/102841726/183715807-780b7e0b-830b-4a69-b5c0-0d10d056afc9.png)
+
+![image](https://user-images.githubusercontent.com/102841726/183715986-f460a2bc-55d5-48d2-b599-9d68a0a8334a.png)
+
+![image](https://user-images.githubusercontent.com/102841726/183716089-23fd78de-1b48-4741-9a2f-29786475e1cd.png)
+
 # Screenshot of Regex Computer Science
 
 ![Regex1](https://user-images.githubusercontent.com/102841726/183271133-c2fe20f4-941d-468c-9be4-bcbb7202e061.png)
