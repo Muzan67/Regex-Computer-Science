@@ -32,16 +32,20 @@ While the regex to validate a string against a valid international phone number 
 
 Anchors have special meaning in regular expressions. They do not match any character. Instead, they match a position before or after characters:
 
-^ – The caret anchor matches the beginning of the text.
-$ – The dollar anchor matches the end of the text. $
+– ^ The caret anchor matches the beginning of the text.
+
+– $ The dollar anchor matches the end of the text. 
 
 ## Quantifiers
 
 We often use the quantifiers to form complex regular expressions. The following shows some regular expression examples that include quantifiers:
 
 Whole numbers:/^\d+$/
+
 Decimal numbers:/^\d*.\d+$/
+
 Whole numbers and decimal numbers:/^\d*(.\d+)?$/
+
 Negative, positive whole numbers & decimal numbers:/^-?\d*(.\d+)?$/
 
 ### Flags
@@ -97,4 +101,6 @@ Use a question mark (?) to transform a greedy quantifier into a lazy quantifier.
 
 ## Author
 
-This regex tutorial was created by Alejandro Cortez, Github: Muzan67 https://github.com/Muzan67
+This regex tutorial was created by Alejandro Cortez
+
+Github: https://github.com/Muzan67
