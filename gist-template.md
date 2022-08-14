@@ -1,7 +1,3 @@
-# Phone Number Regex
-
-The basic international phone number validation
-
 ## Summary - The basic international phone number validation
 
 The regex below validates a string against a valid international phone number format without delimiters and with an optional plus sign:
@@ -14,6 +10,10 @@ There might be also an option to leave a phone number field without any validati
 
 - More complex phone numbers with extensions
 - The different phone numbers for calling them on a different time of day
+
+# Phone Number Regex
+
+The basic international phone number validation
 
 ## Table of Contents
 
@@ -123,6 +123,4 @@ I am also certified as an Amazon Web Service Cloud Practitioner which allows me 
 
 ⚡I am a professional Chef, Enthustiatic Travelor, Melomaniac, collector of the Polo Bear clothing attire from Ralph Lauren, Anime Otaku.
 
-This regex tutorial was created by Alejandro Cortez
 
-Github: https://github.com/Muzan67
