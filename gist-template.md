@@ -99,7 +99,29 @@ Lazy quantifiers match their previous elements as few as possible to return the 
 
 Use a question mark (?) to transform a greedy quantifier into a lazy quantifier.
 
+## Regex Gist
+
+https://gist.github.com/Muzan67/278ea3140ca007db065b95a1e871acac
+
+## Regex repository
+
+https://github.com/Muzan67/Regex-Computer-Science
+
 ## Author
+
+This regex tutorial was created by Alejandro Cortez
+
+Github: https://github.com/Muzan67
+
+## Alejandro Cortez - BIO
+
+I am currently enrolled in Columbia Engineering Boot Camp to become a Full Stack Web Developer which has given me the foundation and tools to be both a Frontend and Backend Developer. I am developing while reinforcing newly developed skills and technologies which include HTML5, JavaScript, CSS, JQuery, Express.js, React.js, Node.js, responsive web design and applications, agile methodology, computer science, database theory, MongoDB, and MySQL.
+
+I am also certified as an Amazon Web Service Cloud Practitioner which allows me to work with the AWS Cloud Management Console to access a broad collection of resources and services while managing information to perform AWS related tasks
+
+🌍 Born and raised in NYC
+
+⚡I am a professional Chef, Enthustiatic Travelor, Melomaniac, collector of the Polo Bear clothing attire from Ralph Lauren, Anime Otaku.
 
 This regex tutorial was created by Alejandro Cortez
 
